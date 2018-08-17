@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="99" tests="2" failures="0" errors="0">
+   <testsuite name="TS_RegressionTest" tests="2" failures="0" errors="0" time="99" timestamp="2018-07-03 15:08:18" hostname="connorreese - ip-10-1-1-17.us-west-2.compute.internal" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value="samsung SM-J727U (Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180703_150816"/>
+         <property name="logFiles" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180703_150816/execution0.log, /Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180703_150816/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="connorreese - ip-10-1-1-17.us-west-2.compute.internal"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-J727U"/>
+         <property name="hostAddress" value="10.1.1.17"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="330097d69bf6a3e7"/>
+         <property name="deviceName" value="samsung SM-J727U (Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/TC01_Verify Correct Alarm Message" classname="Test Cases/TC01_Verify Correct Alarm Message" status="PASSED">
+         <system-out><![CDATA[2018-07-03 15:08:18 - [TEST_CASE][PASSED] - Test Cases/TC01_Verify Correct Alarm Message: Test Cases/TC01_Verify Correct Alarm Message
+
+2018-07-03 15:08:19 - [TEST_STEP][PASSED] - comment: Story: Verify correct alarm message
+
+2018-07-03 15:08:19 - [TEST_STEP][PASSED] - comment: Given that user has started an application
+
+2018-07-03 15:08:19 - [TEST_STEP][PASSED] - Statement - appPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(G_AndroidApp, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-07-03 15:08:19 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk'
+
+2018-07-03 15:09:15 - [MESSAGE][PASSED] - Started app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk'
+
+2018-07-03 15:09:15 - [TEST_STEP][PASSED] - comment: And he navigates the application to Activity form
+
+2018-07-03 15:09:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.TextView - App'
+
+2018-07-03 15:09:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.TextView - App'
+
+2018-07-03 15:09:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/App/android.widget.TextView-Activity'
+
+2018-07-03 15:09:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/App/android.widget.TextView-Activity'
+
+2018-07-03 15:09:19 - [TEST_STEP][PASSED] - comment: When he taps on the Custom Dialog button
+
+2018-07-03 15:09:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/App/Activity/android.widget.TextView-Custom Dialog'
+
+2018-07-03 15:09:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/App/Activity/android.widget.TextView-Custom Dialog'
+
+2018-07-03 15:09:20 - [TEST_STEP][PASSED] - Statement - message = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog), 10): Text of element 'Object Repository/Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog' is: 'Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.'
+
+2018-07-03 15:09:20 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog' is: 'Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.'
+
+2018-07-03 15:09:20 - [TEST_STEP][PASSED] - comment: Then the correct dialog message should be displayed
+
+2018-07-03 15:09:20 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.' and expected object 'Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.' are equal
+
+2018-07-03 15:09:21 - [MESSAGE][PASSED] - Actual object 'Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.' and expected object 'Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.' are equal
+
+2018-07-03 15:09:21 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-07-03 15:09:22 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_Verify Last Items In List" classname="Test Cases/TC02_Verify Last Items In List" status="PASSED">
+         <system-out><![CDATA[2018-07-03 15:09:22 - [TEST_CASE][PASSED] - Test Cases/TC02_Verify Last Items In List: Test Cases/TC02_Verify Last Items In List
+
+2018-07-03 15:09:22 - [TEST_STEP][PASSED] - comment: Story: Verify correct alarm message
+
+2018-07-03 15:09:22 - [TEST_STEP][PASSED] - comment: Given that user has started an application
+
+2018-07-03 15:09:22 - [TEST_STEP][PASSED] - Statement - appPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(G_AndroidApp, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-07-03 15:09:22 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk'
+
+2018-07-03 15:09:47 - [MESSAGE][PASSED] - Started app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk'
+
+2018-07-03 15:09:47 - [TEST_STEP][PASSED] - comment: And he navigates the application to Graphics form
+
+2018-07-03 15:09:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.TextView - Graphics'
+
+2018-07-03 15:09:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.TextView - Graphics'
+
+2018-07-03 15:09:49 - [TEST_STEP][PASSED] - comment: When he scroll to Xfermodes text
+
+2018-07-03 15:09:49 - [TEST_STEP][PASSED] - scrollToText: Scrolling to text 'Xfermodes' successfully
+
+2018-07-03 15:09:56 - [MESSAGE][PASSED] - Scrolling to text 'Xfermodes' successfully
+
+2018-07-03 15:09:56 - [TEST_STEP][PASSED] - comment: Then the current screen should show Xfermodes text after scrolling
+
+2018-07-03 15:09:56 - [TEST_STEP][PASSED] - Statement - itemText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application/Graphics/android.widget.TextView - Xfermodes), G_Timeout): Text of element 'Object Repository/Application/Graphics/android.widget.TextView - Xfermodes' is: 'Xfermodes'
+
+2018-07-03 15:09:56 - [MESSAGE][PASSED] - Text of element 'Object Repository/Application/Graphics/android.widget.TextView - Xfermodes' is: 'Xfermodes'
+
+2018-07-03 15:09:56 - [TEST_STEP][PASSED] - verifyEqual: Actual object 'Xfermodes' and expected object 'Xfermodes' are equal
+
+2018-07-03 15:09:56 - [MESSAGE][PASSED] - Actual object 'Xfermodes' and expected object 'Xfermodes' are equal
+
+2018-07-03 15:09:56 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-07-03 15:09:58 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 15:08:18 - [TEST_SUITE][PASSED] - TS_RegressionTest: Test Cases/TC02_Verify Last Items In List]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="128" tests="2" failures="0" errors="0">
+   <testsuite name="TS_RegressionTest" tests="2" failures="0" errors="0" time="128" timestamp="2018-07-03 16:50:31" hostname="connorreese - ip-10-1-1-17.us-west-2.compute.internal" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value="samsung SM-J727U (Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180703_165029"/>
+         <property name="logFiles" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180703_165029/execution0.log, /Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180703_165029/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="connorreese - ip-10-1-1-17.us-west-2.compute.internal"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-J727U"/>
+         <property name="hostAddress" value="10.1.1.17"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="330097d69bf6a3e7"/>
+         <property name="deviceName" value="samsung SM-J727U (Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/successfulLoginTest" classname="Test Cases/successfulLoginTest" status="PASSED">
+         <system-out><![CDATA[2018-07-03 16:50:31 - [TEST_CASE][PASSED] - Test Cases/successfulLoginTest: Test Cases/successfulLoginTest
+
+2018-07-03 16:50:31 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+
+2018-07-03 16:51:23 - [MESSAGE][PASSED] - Started app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+
+2018-07-03 16:51:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.FrameLayout11'
+
+2018-07-03 16:51:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:51:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.FrameLayout11'
+
+2018-07-03 16:51:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/TextInputLayout0 - Email'
+
+2018-07-03 16:51:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:51:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/TextInputLayout0 - Email'
+
+2018-07-03 16:51:27 - [TEST_STEP][PASSED] - setText: Text 'connor.reese@payclip.com' has been set to element 'Object Repository/Application/android.widget.EditText0'
+
+2018-07-03 16:51:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:51:29 - [MESSAGE][PASSED] - Text 'connor.reese@payclip.com' has been set to element 'Object Repository/Application/android.widget.EditText0'
+
+2018-07-03 16:51:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/TextInputLayout1 - Password'
+
+2018-07-03 16:51:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:51:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/TextInputLayout1 - Password'
+
+2018-07-03 16:51:31 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' has been set to element 'Object Repository/Application/android.widget.EditText1'
+
+2018-07-03 16:51:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:51:33 - [MESSAGE][PASSED] - Text 'P@ssw0rd' has been set to element 'Object Repository/Application/android.widget.EditText1'
+
+2018-07-03 16:51:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.TextView0 - Login'
+
+2018-07-03 16:51:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:51:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.TextView0 - Login'
+
+2018-07-03 16:51:36 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-07-03 16:51:40 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/failedLoginTest" classname="Test Cases/failedLoginTest" status="PASSED">
+         <system-out><![CDATA[2018-07-03 16:51:40 - [TEST_CASE][PASSED] - Test Cases/failedLoginTest: Test Cases/failedLoginTest
+
+2018-07-03 16:51:40 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+
+2018-07-03 16:52:22 - [MESSAGE][PASSED] - Started app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+
+2018-07-03 16:52:22 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.FrameLayout11 (1)'
+
+2018-07-03 16:52:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:52:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.FrameLayout11 (1)'
+
+2018-07-03 16:52:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.EditText0 (1)'
+
+2018-07-03 16:52:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:52:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.EditText0 (1)'
+
+2018-07-03 16:52:27 - [TEST_STEP][PASSED] - setText: Text 'john doe' has been set to element 'Object Repository/Application/android.widget.EditText0 (2)'
+
+2018-07-03 16:52:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:52:28 - [MESSAGE][PASSED] - Text 'john doe' has been set to element 'Object Repository/Application/android.widget.EditText0 (2)'
+
+2018-07-03 16:52:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.EditText1 (1)'
+
+2018-07-03 16:52:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:52:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.EditText1 (1)'
+
+2018-07-03 16:52:30 - [TEST_STEP][PASSED] - setText: Text 'meh' has been set to element 'Object Repository/Application/android.widget.EditText1 (2)'
+
+2018-07-03 16:52:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:52:31 - [MESSAGE][PASSED] - Text 'meh' has been set to element 'Object Repository/Application/android.widget.EditText1 (2)'
+
+2018-07-03 16:52:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.ImageButton0'
+
+2018-07-03 16:52:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:52:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.ImageButton0'
+
+2018-07-03 16:52:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.TextView0 - Login (1)'
+
+2018-07-03 16:52:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-03 16:52:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.TextView0 - Login (1)'
+
+2018-07-03 16:52:35 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-07-03 16:52:40 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 16:50:31 - [TEST_SUITE][PASSED] - TS_RegressionTest: Test Cases/failedLoginTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

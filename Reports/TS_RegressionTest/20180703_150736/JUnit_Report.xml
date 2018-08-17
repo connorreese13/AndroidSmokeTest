@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="0" tests="0" failures="2" errors="0">
+   <testsuite name="TS_RegressionTest" tests="0" failures="2" errors="0" time="0" timestamp="2018-07-03 15:07:38" hostname="connorreese - ip-10-1-1-17.us-west-2.compute.internal" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180703_150736"/>
+         <property name="logFiles" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180703_150736/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="connorreese - ip-10-1-1-17.us-west-2.compute.internal"/>
+         <property name="hostAddress" value="10.1.1.17"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/TC01_Verify Correct Alarm Message" classname="Test Cases/TC01_Verify Correct Alarm Message" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)"/>
+         <system-out><![CDATA[2018-07-03 15:07:39 - [TEST_CASE][FAILED] - Test Cases/TC01_Verify Correct Alarm Message: Test Cases/TC01_Verify Correct Alarm Message FAILED because (of) Unable to start app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-07-03 15:07:39 - [TEST_STEP][PASSED] - comment: Story: Verify correct alarm message
+
+2018-07-03 15:07:39 - [TEST_STEP][PASSED] - comment: Given that user has started an application
+
+2018-07-03 15:07:39 - [TEST_STEP][PASSED] - Statement - appPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(G_AndroidApp, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-07-03 15:07:39 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-07-03 15:07:39 - [MESSAGE][FAILED] - Unable to start app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+         <system-err><![CDATA[2018-07-03 15:07:39 - [TEST_CASE][FAILED] - Test Cases/TC01_Verify Correct Alarm Message: Test Cases/TC01_Verify Correct Alarm Message FAILED because (of) Unable to start app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02_Verify Last Items In List" classname="Test Cases/TC02_Verify Last Items In List" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)"/>
+         <system-out><![CDATA[2018-07-03 15:07:39 - [TEST_CASE][FAILED] - Test Cases/TC02_Verify Last Items In List: Test Cases/TC02_Verify Last Items In List FAILED because (of) Unable to start app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-07-03 15:07:39 - [TEST_STEP][PASSED] - comment: Story: Verify correct alarm message
+
+2018-07-03 15:07:39 - [TEST_STEP][PASSED] - comment: Given that user has started an application
+
+2018-07-03 15:07:39 - [TEST_STEP][PASSED] - Statement - appPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(G_AndroidApp, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir()): null
+
+2018-07-03 15:07:39 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-07-03 15:07:39 - [MESSAGE][FAILED] - Unable to start app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+         <system-err><![CDATA[2018-07-03 15:07:39 - [TEST_CASE][FAILED] - Test Cases/TC02_Verify Last Items In List: Test Cases/TC02_Verify Last Items In List FAILED because (of) Unable to start app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-03 15:07:38 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/TC01_Verify Correct Alarm Message FAILED because (of) Unable to start app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+      <system-err><![CDATA[2018-07-03 15:07:38 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/TC01_Verify Correct Alarm Message FAILED because (of) Unable to start app at: '/Users/connorreese/Katalon Studio/SampleMobileTestProject1/androidapp/APIDemos.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+   </testsuite>
+</testsuites>

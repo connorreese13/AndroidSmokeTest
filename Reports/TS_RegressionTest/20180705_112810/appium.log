@@ -1,0 +1,55 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 53583
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 53584
+[Appium]   tmpDir: /var/folders/7z/_z75dzjx0mv_t156hv61y6m40000gn/T//Katalon/Appium/Temp1530811692105
+[Appium] Appium REST http interface listener started on 0.0.0.0:53583
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 27 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-J727U (Android 7.0)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"330097d69bf6a3e7"},"capabilities":{"desiredCapabilities":{"app":"/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-J727U (Android 7.0)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"330097d69bf6a3e7"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: samsung SM-J727U (Android 7.0)
+[Appium]   fullReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: false
+[Appium]   platform: ANDROID
+[Appium]   platformName: Android
+[Appium]   udid: 330097d69bf6a3e7
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: a1885105-e62e-4b7f-a123-3e2d7f2bcfae
+[HTTP] <-- POST /wd/hub/session 500 50 ms - 254
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 13 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-J727U (Android 7.0)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"330097d69bf6a3e7"},"capabilities":{"desiredCapabilities":{"app":"/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-J727U (Android 7.0)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"330097d69bf6a3e7"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: samsung SM-J727U (Android 7.0)
+[Appium]   fullReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: false
+[Appium]   platform: ANDROID
+[Appium]   platformName: Android
+[Appium]   udid: 330097d69bf6a3e7
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 19e831db-372d-4873-ac66-32cdc1ef2639
+[HTTP] <-- POST /wd/hub/session 500 11 ms - 254
+[HTTP] 

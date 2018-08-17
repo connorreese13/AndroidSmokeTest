@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="5" tests="0" failures="2" errors="0">
+   <testsuite name="TS_RegressionTest" tests="0" failures="2" errors="0" time="5" timestamp="2018-07-05 11:27:39" hostname="connorreese - 10.1.1.17" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value="samsung SM-J727U (Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180705_112737"/>
+         <property name="logFiles" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180705_112737/execution0.log, /Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180705_112737/appium.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="connorreese - 10.1.1.17"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="deviceModel" value="SM-J727U"/>
+         <property name="hostAddress" value="10.1.1.17"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="330097d69bf6a3e7"/>
+         <property name="deviceName" value="samsung SM-J727U (Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/successfulLoginTest" classname="Test Cases/successfulLoginTest" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' does not exist or is not accessible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Connors-MacBook-Pro.local', ip: '10.1.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2018-07-05 11:27:39 - [TEST_CASE][FAILED] - Test Cases/successfulLoginTest: Test Cases/successfulLoginTest FAILED because (of) Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' does not exist or is not accessible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Connors-MacBook-Pro.local', ip: '10.1.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-07-05 11:27:39 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' does not exist or is not accessible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Connors-MacBook-Pro.local', ip: '10.1.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-07-05 11:27:44 - [MESSAGE][FAILED] - Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' does not exist or is not accessible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Connors-MacBook-Pro.local', ip: '10.1.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+         <system-err><![CDATA[2018-07-05 11:27:39 - [TEST_CASE][FAILED] - Test Cases/successfulLoginTest: Test Cases/successfulLoginTest FAILED because (of) Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' does not exist or is not accessible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Connors-MacBook-Pro.local', ip: '10.1.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/failedLoginTest" classname="Test Cases/failedLoginTest" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' does not exist or is not accessible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Connors-MacBook-Pro.local', ip: '10.1.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2018-07-05 11:27:44 - [TEST_CASE][FAILED] - Test Cases/failedLoginTest: Test Cases/failedLoginTest FAILED because (of) Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' does not exist or is not accessible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Connors-MacBook-Pro.local', ip: '10.1.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-07-05 11:27:44 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' does not exist or is not accessible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Connors-MacBook-Pro.local', ip: '10.1.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2018-07-05 11:27:44 - [MESSAGE][FAILED] - Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' does not exist or is not accessible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Connors-MacBook-Pro.local', ip: '10.1.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+         <system-err><![CDATA[2018-07-05 11:27:44 - [TEST_CASE][FAILED] - Test Cases/failedLoginTest: Test Cases/failedLoginTest FAILED because (of) Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' does not exist or is not accessible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Connors-MacBook-Pro.local', ip: '10.1.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-05 11:27:39 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/successfulLoginTest FAILED because (of) Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' does not exist or is not accessible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Connors-MacBook-Pro.local', ip: '10.1.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+      <system-err><![CDATA[2018-07-05 11:27:39 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/successfulLoginTest FAILED because (of) Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: The application at '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' does not exist or is not accessible (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'Connors-MacBook-Pro.local', ip: '10.1.1.17', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.4', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+   </testsuite>
+</testsuites>

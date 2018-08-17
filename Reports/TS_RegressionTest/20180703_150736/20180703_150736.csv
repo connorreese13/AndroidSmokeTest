@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,,,2018-07-03 15:07:38,2018-07-03 15:07:39,0.954s,FAILED
+,,,,,,
+Test Cases/TC01_Verify Correct Alarm Message,,"- An automation script to help user getting started with Mobile automation testing.\n- Script Content: Click \""START ALARM SERVICE\"" and click \""STOP ALARM SERVICE\"", verify alert show is correct",2018-07-03 15:07:39,2018-07-03 15:07:39,0.519s,FAILED
+comment,,,2018-07-03 15:07:39,2018-07-03 15:07:39,0.034s,PASSED
+comment,,,2018-07-03 15:07:39,2018-07-03 15:07:39,0.003s,PASSED
+"Statement - appPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(G_AndroidApp, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Get full directory's path of android application,2018-07-03 15:07:39,2018-07-03 15:07:39,0.012s,PASSED
+startApplication,,,2018-07-03 15:07:39,2018-07-03 15:07:39,0.122s,FAILED
+,,,,,,
+Test Cases/TC02_Verify Last Items In List,,- An automation script to help user getting started with Mobile automation testing.\n- Script Content: Open the application and verify the items show full when the items over loading,2018-07-03 15:07:39,2018-07-03 15:07:39,0.091s,FAILED
+comment,,,2018-07-03 15:07:39,2018-07-03 15:07:39,0.002s,PASSED
+comment,,,2018-07-03 15:07:39,2018-07-03 15:07:39,0.001s,PASSED
+"Statement - appPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(G_AndroidApp, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())",,Get full directory's path of android application,2018-07-03 15:07:39,2018-07-03 15:07:39,0.001s,PASSED
+startApplication,,,2018-07-03 15:07:39,2018-07-03 15:07:39,0.004s,FAILED

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="0" tests="0" failures="2" errors="0">
+   <testsuite name="TS_RegressionTest" tests="0" failures="2" errors="0" time="0" timestamp="2018-07-05 11:29:06" hostname="connorreese - 10.1.1.17" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180705_112905"/>
+         <property name="logFiles" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180705_112905/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="connorreese - 10.1.1.17"/>
+         <property name="hostAddress" value="10.1.1.17"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+      </properties>
+      <testcase name="Test Cases/successfulLoginTest" classname="Test Cases/successfulLoginTest" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)"/>
+         <system-out><![CDATA[2018-07-05 11:29:07 - [TEST_CASE][FAILED] - Test Cases/successfulLoginTest: Test Cases/successfulLoginTest FAILED because (of) Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-07-05 11:29:07 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-07-05 11:29:07 - [MESSAGE][FAILED] - Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+         <system-err><![CDATA[2018-07-05 11:29:07 - [TEST_CASE][FAILED] - Test Cases/successfulLoginTest: Test Cases/successfulLoginTest FAILED because (of) Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/failedLoginTest" classname="Test Cases/failedLoginTest" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)"/>
+         <system-out><![CDATA[2018-07-05 11:29:07 - [TEST_CASE][FAILED] - Test Cases/failedLoginTest: Test Cases/failedLoginTest FAILED because (of) Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-07-05 11:29:07 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2018-07-05 11:29:07 - [MESSAGE][FAILED] - Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+         <system-err><![CDATA[2018-07-05 11:29:07 - [TEST_CASE][FAILED] - Test Cases/failedLoginTest: Test Cases/failedLoginTest FAILED because (of) Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-05 11:29:06 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/successfulLoginTest FAILED because (of) Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+      <system-err><![CDATA[2018-07-05 11:29:06 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/successfulLoginTest FAILED because (of) Unable to start app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+   </testsuite>
+</testsuites>

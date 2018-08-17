@@ -1,0 +1,339 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 55147
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 55148
+[Appium]   tmpDir: /var/folders/7z/_z75dzjx0mv_t156hv61y6m40000gn/T//Katalon/Appium/Temp1530658300832
+[Appium] Appium REST http interface listener started on 0.0.0.0:55147
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 18 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-J727U (Android 7.0)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"330097d69bf6a3e7"},"capabilities":{"desiredCapabilities":{"app":"/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-J727U (Android 7.0)","fullReset":true,"newCommandTimeout":1800,"noReset":false,"platform":"ANDROID","platformName":"Android","udid":"330097d69bf6a3e7"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: samsung SM-J727U (Android 7.0)
+[Appium]   fullReset: true
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: false
+[Appium]   platform: ANDROID
+[Appium]   platformName: Android
+[Appium]   udid: 330097d69bf6a3e7
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[BaseDriver] Using local app '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Found 1 'build-tools' folders under '/Users/connorreese/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/connorreese/.katalon/tools/android_sdk/build-tools/28.0.0
+[ADB] Using adb from /Users/connorreese/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 330097d69bf6a3e7
+[ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer in /Users/connorreese/.katalon/tools/android_sdk/platform-tools/apkanalyzer,/Users/connorreese/.katalon/tools/android_sdk/emulator/apkanalyzer,/Users/connorreese/.katalon/tools/android_sdk/tools/apkanalyzer,/Users/connorreese/.katalon/tools/android_sdk/tools/bin/apkanalyzer,/Users/connorreese/.katalon/tools/android_sdk/build-tools/28.0.0/apkanalyzer. Do you have the Android SDK installed at '/Users/connorreese/.katalon/tools/android_sdk'?
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/connorreese/.katalon/tools/android_sdk/build-tools/28.0.0/aapt
+[ADB] Extracting package and launch activity from manifest
+[ADB] Package name: 'com.payclip.clip'
+[ADB] Main activity name: 'com.payclip.clip.MainActivity'
+[ADB] Getting device platform version
+[ADB] Using apksigner from /Users/connorreese/.katalon/tools/android_sdk/build-tools/28.0.0/apksigner
+[ADB] Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[ADB] Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Successfully extracted 591 strings from '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' resources for '(default)' configuration
+[ADB] com.payclip.clip was not uninstalled, because it was not present on the device
+[UiAutomator2] Starting uiautomator2 server 1.12.0
+[UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Running command: 'adb -s 330097d69bf6a3e7 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.payclip.clip/com.payclip.clip.MainActivity'. Starting it ourselves
+[Appium] New AndroidUiautomator2Driver session created successfully, session 121b4d60-6f03-4df8-987d-9545fc05fd0c added to master session list
+[HTTP] <-- POST /wd/hub/session 200 39632 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 20 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/timeouts
+[HTTP] {"type":"implicit","ms":30000}
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/timeouts 400 33 ms - 4300
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size 200 47 ms - 99
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.FrameLayout\").resourceId(\"com.payclip.clip:id/marketingLoginButton\").instance(11)"}
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements 200 689 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 27 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 21 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 22 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 22 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/c59d677b-ede6-4bbf-a82e-bbfc944e73ed/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/c59d677b-ede6-4bbf-a82e-bbfc944e73ed/location 200 40 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"c59d677b-ede6-4bbf-a82e-bbfc944e73ed","x":1,"y":1}}]}
+[UiAutomator2] calling get location: c59d677b-ede6-4bbf-a82e-bbfc944e73ed
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/touch/perform 200 1169 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size 200 27 ms - 99
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.payclip.clip:id/emailEditText\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements 200 84 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 23 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 21 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 22 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 22 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/37433048-47c4-4229-a733-2a5fdf2910d4/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/37433048-47c4-4229-a733-2a5fdf2910d4/location 200 48 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"37433048-47c4-4229-a733-2a5fdf2910d4","x":1,"y":1}}]}
+[UiAutomator2] calling get location: 37433048-47c4-4229-a733-2a5fdf2910d4
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/touch/perform 200 1746 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size 200 30 ms - 99
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.payclip.clip:id/emailEditText\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements 200 97 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 20 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 23 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 23 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 18 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/80f8ca0f-e1b8-4e12-b193-0b8ef72a0689/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/80f8ca0f-e1b8-4e12-b193-0b8ef72a0689/location 200 40 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/80f8ca0f-e1b8-4e12-b193-0b8ef72a0689/clear
+[HTTP] {"id":"80f8ca0f-e1b8-4e12-b193-0b8ef72a0689"}
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/80f8ca0f-e1b8-4e12-b193-0b8ef72a0689/clear 200 62 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/80f8ca0f-e1b8-4e12-b193-0b8ef72a0689/value
+[HTTP] {"id":"80f8ca0f-e1b8-4e12-b193-0b8ef72a0689","value":["john doe"]}
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/80f8ca0f-e1b8-4e12-b193-0b8ef72a0689/value 200 788 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size 200 17 ms - 99
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.payclip.clip:id/passwordEditText\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements 200 928 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 20 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 18 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 19 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 19 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/0f7b7e56-5a6d-436f-b2e0-ce2a0b35e0d8/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/0f7b7e56-5a6d-436f-b2e0-ce2a0b35e0d8/location 200 44 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"0f7b7e56-5a6d-436f-b2e0-ce2a0b35e0d8","x":1,"y":1}}]}
+[UiAutomator2] calling get location: 0f7b7e56-5a6d-436f-b2e0-ce2a0b35e0d8
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/touch/perform 200 1034 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size 200 27 ms - 99
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").resourceId(\"com.payclip.clip:id/passwordEditText\").instance(1)"}
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements 200 91 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 23 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 23 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 19 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 17 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/2e8f8dcb-ad6c-45a6-a8df-57e403ec770a/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/2e8f8dcb-ad6c-45a6-a8df-57e403ec770a/location 200 36 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/2e8f8dcb-ad6c-45a6-a8df-57e403ec770a/clear
+[HTTP] {"id":"2e8f8dcb-ad6c-45a6-a8df-57e403ec770a"}
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/2e8f8dcb-ad6c-45a6-a8df-57e403ec770a/clear 200 73 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/2e8f8dcb-ad6c-45a6-a8df-57e403ec770a/value
+[HTTP] {"id":"2e8f8dcb-ad6c-45a6-a8df-57e403ec770a","value":["meh"]}
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/2e8f8dcb-ad6c-45a6-a8df-57e403ec770a/value 200 935 ms - 74
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size 200 28 ms - 99
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageButton\").resourceId(\"com.payclip.clip:id/text_input_password_toggle\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements 200 673 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 16 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 20 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 20 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 14 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/a79866c2-f0cf-495d-9b57-4c244338e86c/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/a79866c2-f0cf-495d-9b57-4c244338e86c/location 200 26 ms - 89
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"a79866c2-f0cf-495d-9b57-4c244338e86c","x":1,"y":1}}]}
+[UiAutomator2] calling get location: a79866c2-f0cf-495d-9b57-4c244338e86c
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/touch/perform 200 897 ms - 76
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/window/current/size 200 25 ms - 99
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements
+[HTTP] {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Login\").instance(0)"}
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/elements 200 70 ms - 124
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 17 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 17 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 77 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 21 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/bc4a4868-4515-4c82-980f-b44206908892/location
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 56835437-8f70-4629-9404-ca3d6ade2e25 with 121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] <-- GET /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/element/bc4a4868-4515-4c82-980f-b44206908892/location 200 41 ms - 88
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/touch/perform
+[HTTP] {"actions":[{"action":"tap","options":{"element":"bc4a4868-4515-4c82-980f-b44206908892","x":1,"y":1}}]}
+[UiAutomator2] calling get location: bc4a4868-4515-4c82-980f-b44206908892
+[HTTP] <-- POST /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c/touch/perform 200 1850 ms - 76
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c
+[HTTP] {}
+[Appium] Removing session 121b4d60-6f03-4df8-987d-9545fc05fd0c from our master session list
+[ADB] com.payclip.clip was successfully uninstalled
+[HTTP] <-- DELETE /wd/hub/session/121b4d60-6f03-4df8-987d-9545fc05fd0c 200 4449 ms - 76
+[HTTP] 

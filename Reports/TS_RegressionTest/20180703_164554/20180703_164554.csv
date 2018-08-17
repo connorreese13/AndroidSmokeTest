@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TS_RegressionTest,,,2018-07-03 16:45:56,2018-07-03 16:45:57,0.742s,FAILED
+,,,,,,
+Test Cases/successfulLoginTest,,,2018-07-03 16:45:56,2018-07-03 16:45:56,0.362s,FAILED
+startApplication,,,2018-07-03 16:45:56,2018-07-03 16:45:56,0.114s,FAILED
+,,,,,,
+Test Cases/failedLoginTest,,,2018-07-03 16:45:56,2018-07-03 16:45:57,0.123s,FAILED
+startApplication,,,2018-07-03 16:45:57,2018-07-03 16:45:57,0.002s,FAILED

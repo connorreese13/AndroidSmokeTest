@@ -1,0 +1,108 @@
+[Appium] Welcome to Appium v1.8.1
+[Appium] Non-default server args:
+[Appium]   port: 61972
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 61973
+[Appium]   tmpDir: /var/folders/7z/_z75dzjx0mv_t156hv61y6m40000gn/T//Katalon/Appium/Temp1533660460688
+[Appium] Appium REST http interface listener started on 0.0.0.0:61972
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 16 ms - 83
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 10 ms - 83
+[HTTP] 
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-J727U (Android 7.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"330097d69bf6a3e7"},"capabilities":{"desiredCapabilities":{"app":"/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-J727U (Android 7.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"330097d69bf6a3e7"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[Appium] The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","automationName","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[Appium] Creating new AndroidUiautomator2Driver (v1.12.0) session
+[Appium] Capabilities:
+[Appium]   app: /Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk
+[Appium]   autoGrantPermissions: true
+[Appium]   automationName: uiautomator2
+[Appium]   deviceName: samsung SM-J727U (Android 7.0)
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: ANDROID
+[Appium]   platformName: Android
+[Appium]   udid: 330097d69bf6a3e7
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 7a949789-7f02-49d3-a36f-40a55fa94350
+[BaseDriver] Using local app '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Found 1 'build-tools' folders under '/Users/connorreese/.katalon/tools/android_sdk' (newest first):
+[ADB]     /Users/connorreese/.katalon/tools/android_sdk/build-tools/28.0.0
+[ADB] Using adb from /Users/connorreese/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 330097d69bf6a3e7
+[ADB] Using the alternative activity name detection method because of: Could not find apkanalyzer in /Users/connorreese/.katalon/tools/android_sdk/platform-tools/apkanalyzer,/Users/connorreese/.katalon/tools/android_sdk/emulator/apkanalyzer,/Users/connorreese/.katalon/tools/android_sdk/tools/apkanalyzer,/Users/connorreese/.katalon/tools/android_sdk/tools/[Appium] Received SIGTERM - shutting down
+n/tools/android_sdk/build-tools/28.0.0/apkanalyzer. Do you have the Android SDK installed at '/Users/connorreese/.katalon/tools/android_sdk'?
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/connorreese/.katalon/tools/android_sdk/build-tools/28.0.0/aapt
+[ADB] Extracting package and launch activity from manifest
+[ADB] Package name: 'com.payclip.clip'
+[ADB] Main activity name: 'com.payclip.clip.MainActivity'
+[ADB] Getting device platform version
+[ADB] Using apksigner from /Users/connorreese/.katalon/tools/android_sdk/build-tools/28.0.0/apksigner
+[ADB] Cannot read version codes of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+[ADB] Cannot read version names of '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'. Assuming correct app version is already installed
+[AndroidDriver] setDeviceLanguageCountry requires language or country.
+[AndroidDriver] Got language: 'null' and country: 'null'
+[ADB] Successfully extracted 591 strings from '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk' resources for '(default)' configuration
+[UiAutomator2] Starting uiautomator2 server 1.12.0
+[UiAutomator2] Using UIAutomator2 server from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v1.12.0.apk' and test from '/usr/local/lib/node_modules/appium/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Running command: 'adb -s 330097d69bf6a3e7 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+[UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+[AndroidDriver] Using app unlock, this is going to be deprecated!
+[AndroidDriver] Unlocking screen
+[AndroidDriver] Launching io.appium.unlock
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.payclip.clip/com.payclip.clip.MainActivity'. Starting it ourselves
+[Appium] New AndroidUiautomator2Driver session created successfully, session 7a949789-7f02-49d3-a36f-40a55fa94350 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 46464 ms - 1171
+[HTTP] 
+[HTTP] --> GET /wd/hub/status
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/status 200 10 ms - 55
+[HTTP] 
+[HTTP] --> POST /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/timeouts
+[HTTP] {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/timeouts 400 12 ms - 4300
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 27a569b2-2ce5-4d18-9942-f571381e4fe5 with 7a949789-7f02-49d3-a36f-40a55fa94350
+[HTTP] <-- GET /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/source 200 825 ms - 12933
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/screenshot 200 248 ms - 73350
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 27a569b2-2ce5-4d18-9942-f571381e4fe5 with 7a949789-7f02-49d3-a36f-40a55fa94350
+[HTTP] <-- GET /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/source 200 167 ms - 21193
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/screenshot 200 293 ms - 110474
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 27a569b2-2ce5-4d18-9942-f571381e4fe5 with 7a949789-7f02-49d3-a36f-40a55fa94350
+[HTTP] <-- GET /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/source 200 142 ms - 14090
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/7a949789-7f02-49d3-a36f-40a55fa94350/screenshot 200 214 ms - 52856
+[HTTP] 
+[BaseDriver] Shutting down because we waited 1800 seconds for a command
+[Appium] Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session 7a949789-7f02-49d3-a36f-40a55fa94350 from our master session list
+[Appium] Received SIGTERM - shutting down

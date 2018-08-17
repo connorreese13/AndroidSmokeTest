@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>AndroidSmokeTest</name>
+   <tag></tag>
+   <UUID>1bf3659a-e005-4d14-b7ae-8998b5eeac1c</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

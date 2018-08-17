@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>settings</name>
+   <tag></tag>
+   <comment>Security Settings test
+Clip Reader Status test
+Preferences Settings test
+Buy your reader test (currently broken) </comment>
+   <testCaseGuid>55beadf3-0f8a-4d31-b889-f5eb34918533</testCaseGuid>
+</TestCaseEntity>

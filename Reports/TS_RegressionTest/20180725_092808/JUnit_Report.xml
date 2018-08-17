@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_RegressionTest" time="332" tests="3" failures="1" errors="0">
+   <testsuite name="TS_RegressionTest" tests="3" failures="1" errors="0" time="332" timestamp="2018-07-25 09:28:10" hostname="connorreese - 10.1.1.95" id="Test Suites/TS_RegressionTest">
+      <properties>
+         <property name="deviceName" value="samsung SM-J727U (Android 7.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180725_092808"/>
+         <property name="logFiles" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180725_092808/execution0.log, /Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180725_092808/appium.log"/>
+         <property name="attachments" value="/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180725_092808/1532532817794.png, /Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180725_092808/1532532818208.png"/>
+         <property name="hostName" value="connorreese - 10.1.1.95"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.5.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-J727U"/>
+         <property name="hostAddress" value="10.1.1.95"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="330097d69bf6a3e7"/>
+         <property name="deviceName" value="samsung SM-J727U (Android 7.0)"/>
+         <property name="deviceOSVersion" value="7.0"/>
+      </properties>
+      <testcase name="Test Cases/successfulLoginTest" classname="Test Cases/successfulLoginTest" status="PASSED">
+         <system-out><![CDATA[2018-07-25 09:28:10 - [TEST_CASE][PASSED] - Test Cases/successfulLoginTest: Test Cases/successfulLoginTest
+
+2018-07-25 09:28:10 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+
+2018-07-25 09:29:08 - [MESSAGE][PASSED] - Started app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+
+2018-07-25 09:29:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.FrameLayout11'
+
+2018-07-25 09:29:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:29:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.FrameLayout11'
+
+2018-07-25 09:29:10 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/TextInputLayout0 - Email'
+
+2018-07-25 09:29:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:29:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/TextInputLayout0 - Email'
+
+2018-07-25 09:29:11 - [TEST_STEP][PASSED] - setText: Text 'connor.reese@payclip.com' has been set to element 'Object Repository/Application/android.widget.EditText0'
+
+2018-07-25 09:29:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:29:13 - [MESSAGE][PASSED] - Text 'connor.reese@payclip.com' has been set to element 'Object Repository/Application/android.widget.EditText0'
+
+2018-07-25 09:29:13 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/TextInputLayout1 - Password'
+
+2018-07-25 09:29:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:29:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/TextInputLayout1 - Password'
+
+2018-07-25 09:29:14 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' has been set to element 'Object Repository/Application/android.widget.EditText1'
+
+2018-07-25 09:29:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:29:15 - [MESSAGE][PASSED] - Text 'P@ssw0rd' has been set to element 'Object Repository/Application/android.widget.EditText1'
+
+2018-07-25 09:29:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.TextView0 - Login'
+
+2018-07-25 09:29:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:29:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.TextView0 - Login'
+
+2018-07-25 09:29:18 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-07-25 09:29:23 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/failedLoginTest" classname="Test Cases/failedLoginTest" status="PASSED">
+         <system-out><![CDATA[2018-07-25 09:29:23 - [TEST_CASE][PASSED] - Test Cases/failedLoginTest: Test Cases/failedLoginTest
+
+2018-07-25 09:29:23 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+
+2018-07-25 09:30:07 - [MESSAGE][PASSED] - Started app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+
+2018-07-25 09:30:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.FrameLayout11 (1)'
+
+2018-07-25 09:30:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:30:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.FrameLayout11 (1)'
+
+2018-07-25 09:30:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.EditText0 (1)'
+
+2018-07-25 09:30:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:30:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.EditText0 (1)'
+
+2018-07-25 09:30:11 - [TEST_STEP][PASSED] - setText: Text 'john doe' has been set to element 'Object Repository/Application/android.widget.EditText0 (2)'
+
+2018-07-25 09:30:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:30:12 - [MESSAGE][PASSED] - Text 'john doe' has been set to element 'Object Repository/Application/android.widget.EditText0 (2)'
+
+2018-07-25 09:30:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.EditText1 (1)'
+
+2018-07-25 09:30:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:30:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.EditText1 (1)'
+
+2018-07-25 09:30:15 - [TEST_STEP][PASSED] - setText: Text 'meh' has been set to element 'Object Repository/Application/android.widget.EditText1 (2)'
+
+2018-07-25 09:30:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:30:16 - [MESSAGE][PASSED] - Text 'meh' has been set to element 'Object Repository/Application/android.widget.EditText1 (2)'
+
+2018-07-25 09:30:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.ImageButton0'
+
+2018-07-25 09:30:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:30:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.ImageButton0'
+
+2018-07-25 09:30:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.TextView0 - Login (1)'
+
+2018-07-25 09:30:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:30:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.TextView0 - Login (1)'
+
+2018-07-25 09:30:23 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-07-25 09:30:28 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/terminalFuctionality" classname="Test Cases/terminalFuctionality" status="PASSED">
+         <system-out><![CDATA[2018-07-25 09:30:28 - [TEST_CASE][PASSED] - Test Cases/terminalFuctionality: Test Cases/terminalFuctionality
+
+2018-07-25 09:30:28 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+
+2018-07-25 09:31:16 - [MESSAGE][PASSED] - Started app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+
+2018-07-25 09:31:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.FrameLayout11'
+
+2018-07-25 09:31:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.FrameLayout11'
+
+2018-07-25 09:31:18 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/TextInputLayout0 - Email'
+
+2018-07-25 09:31:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/TextInputLayout0 - Email'
+
+2018-07-25 09:31:19 - [TEST_STEP][PASSED] - setText: Text 'connor.reese@payclip.com' has been set to element 'Object Repository/Application/android.widget.EditText0'
+
+2018-07-25 09:31:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:21 - [MESSAGE][PASSED] - Text 'connor.reese@payclip.com' has been set to element 'Object Repository/Application/android.widget.EditText0'
+
+2018-07-25 09:31:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/TextInputLayout1 - Password'
+
+2018-07-25 09:31:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/TextInputLayout1 - Password'
+
+2018-07-25 09:31:22 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' has been set to element 'Object Repository/Application/android.widget.EditText1'
+
+2018-07-25 09:31:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:23 - [MESSAGE][PASSED] - Text 'P@ssw0rd' has been set to element 'Object Repository/Application/android.widget.EditText1'
+
+2018-07-25 09:31:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.TextView0 - Login'
+
+2018-07-25 09:31:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.TextView0 - Login'
+
+2018-07-25 09:31:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.Button3 - 4'
+
+2018-07-25 09:31:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.Button3 - 4'
+
+2018-07-25 09:31:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.Button2 - 3'
+
+2018-07-25 09:31:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.Button2 - 3'
+
+2018-07-25 09:31:28 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.Button5 - 6'
+
+2018-07-25 09:31:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.Button5 - 6'
+
+2018-07-25 09:31:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.ImageButton0'
+
+2018-07-25 09:31:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.ImageButton0'
+
+2018-07-25 09:31:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.ImageButton0'
+
+2018-07-25 09:31:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.ImageButton0'
+
+2018-07-25 09:31:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.ImageButton0'
+
+2018-07-25 09:31:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.ImageButton0'
+
+2018-07-25 09:31:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.Button5 - 6'
+
+2018-07-25 09:31:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.Button5 - 6'
+
+2018-07-25 09:31:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.Button0 - 1'
+
+2018-07-25 09:31:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.Button0 - 1'
+
+2018-07-25 09:31:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.Button2 - 3'
+
+2018-07-25 09:31:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.Button2 - 3'
+
+2018-07-25 09:31:40 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.Button9 - Clear'
+
+2018-07-25 09:31:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.Button9 - Clear'
+
+2018-07-25 09:31:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.TextView0 - Charge'
+
+2018-07-25 09:31:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.TextView0 - Charge'
+
+2018-07-25 09:31:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.TextView2 - OK'
+
+2018-07-25 09:31:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.TextView2 - OK'
+
+2018-07-25 09:31:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.Button2 - 3'
+
+2018-07-25 09:31:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.Button2 - 3'
+
+2018-07-25 09:31:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.TextView0 - Charge'
+
+2018-07-25 09:31:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.TextView0 - Charge'
+
+2018-07-25 09:31:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Terminal/android.widget.ImageButton0 (1)'
+
+2018-07-25 09:31:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:31:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Terminal/android.widget.ImageButton0 (1)'
+
+2018-07-25 09:31:52 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-07-25 09:31:56 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/settings" classname="Test Cases/settings" status="FAILED">
+         <failure type="FAILED" message="Failed to tap on element 'Object Repository/Settings/android.widget.Switch0 - OFF' (Root cause: Object Object Repository/Settings/android.widget.Switch0 - OFF not found)"/>
+         <system-out><![CDATA[2018-07-25 09:31:56 - [TEST_CASE][FAILED] - Test Cases/settings: Test Cases/settings FAILED because (of) Failed to tap on element 'Object Repository/Settings/android.widget.Switch0 - OFF' (Root cause: Object Object Repository/Settings/android.widget.Switch0 - OFF not found)
+
+2018-07-25 09:31:56 - [TEST_STEP][PASSED] - startApplication: Started app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+
+2018-07-25 09:32:42 - [MESSAGE][PASSED] - Started app at: '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
+
+2018-07-25 09:32:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.FrameLayout11'
+
+2018-07-25 09:32:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:32:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.FrameLayout11'
+
+2018-07-25 09:32:44 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/TextInputLayout0 - Email'
+
+2018-07-25 09:32:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:32:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/TextInputLayout0 - Email'
+
+2018-07-25 09:32:45 - [TEST_STEP][PASSED] - setText: Text 'connor.reese@payclip.com' has been set to element 'Object Repository/Application/android.widget.EditText0'
+
+2018-07-25 09:32:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:32:47 - [MESSAGE][PASSED] - Text 'connor.reese@payclip.com' has been set to element 'Object Repository/Application/android.widget.EditText0'
+
+2018-07-25 09:32:47 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/TextInputLayout1 - Password'
+
+2018-07-25 09:32:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:32:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/TextInputLayout1 - Password'
+
+2018-07-25 09:32:49 - [TEST_STEP][PASSED] - setText: Text 'P@ssw0rd' has been set to element 'Object Repository/Application/android.widget.EditText1'
+
+2018-07-25 09:32:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:32:50 - [MESSAGE][PASSED] - Text 'P@ssw0rd' has been set to element 'Object Repository/Application/android.widget.EditText1'
+
+2018-07-25 09:32:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.TextView0 - Login'
+
+2018-07-25 09:32:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:32:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.TextView0 - Login'
+
+2018-07-25 09:32:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Application/android.widget.ViewAnimator2'
+
+2018-07-25 09:32:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:32:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Application/android.widget.ViewAnimator2'
+
+2018-07-25 09:32:54 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Settings/android.widget.TextView3 - Security'
+
+2018-07-25 09:32:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:32:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/android.widget.TextView3 - Security'
+
+2018-07-25 09:32:55 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Settings/android.widget.Switch0 - OFF'
+
+2018-07-25 09:32:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:32:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/android.widget.Switch0 - OFF'
+
+2018-07-25 09:32:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Settings/android.widget.Button0 - 1'
+
+2018-07-25 09:32:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:32:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/android.widget.Button0 - 1'
+
+2018-07-25 09:32:58 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Settings/android.widget.Button1 - 2'
+
+2018-07-25 09:32:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:32:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/android.widget.Button1 - 2'
+
+2018-07-25 09:32:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Settings/android.widget.Button2 - 3'
+
+2018-07-25 09:32:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:33:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/android.widget.Button2 - 3'
+
+2018-07-25 09:33:01 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Settings/android.widget.Button3 - 4'
+
+2018-07-25 09:33:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:33:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/android.widget.Button3 - 4'
+
+2018-07-25 09:33:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Settings/android.widget.Button0 - 1'
+
+2018-07-25 09:33:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:33:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/android.widget.Button0 - 1'
+
+2018-07-25 09:33:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Settings/android.widget.Button1 - 2'
+
+2018-07-25 09:33:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:33:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/android.widget.Button1 - 2'
+
+2018-07-25 09:33:04 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Settings/android.widget.Button2 - 3'
+
+2018-07-25 09:33:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:33:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/android.widget.Button2 - 3'
+
+2018-07-25 09:33:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Settings/android.widget.Button3 - 4'
+
+2018-07-25 09:33:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:33:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Settings/android.widget.Button3 - 4'
+
+2018-07-25 09:33:07 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/Settings/android.widget.Switch0 - OFF' (Root cause: Object Object Repository/Settings/android.widget.Switch0 - OFF not found)
+
+2018-07-25 09:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-25 09:33:38 - [MESSAGE][FAILED] - Object Object Repository/Settings/android.widget.Switch0 - OFF not found
+[[ATTACHMENT|/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180725_092808/1532532817794.png]]
+
+2018-07-25 09:33:38 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/Settings/android.widget.Switch0 - OFF' (Root cause: Object Object Repository/Settings/android.widget.Switch0 - OFF not found)
+[[ATTACHMENT|/Users/connorreese/Katalon Studio/SampleMobileTestProject1/Reports/TS_RegressionTest/20180725_092808/1532532818208.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-25 09:31:56 - [TEST_CASE][FAILED] - Test Cases/settings: Test Cases/settings FAILED because (of) Failed to tap on element 'Object Repository/Settings/android.widget.Switch0 - OFF' (Root cause: Object Object Repository/Settings/android.widget.Switch0 - OFF not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-25 09:28:10 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/settings FAILED because (of) Failed to tap on element 'Object Repository/Settings/android.widget.Switch0 - OFF' (Root cause: Object Object Repository/Settings/android.widget.Switch0 - OFF not found)]]></system-out>
+      <system-err><![CDATA[2018-07-25 09:28:10 - [TEST_SUITE][FAILED] - TS_RegressionTest: Test Cases/settings FAILED because (of) Failed to tap on element 'Object Repository/Settings/android.widget.Switch0 - OFF' (Root cause: Object Object Repository/Settings/android.widget.Switch0 - OFF not found)]]></system-err>
+   </testsuite>
+</testsuites>
