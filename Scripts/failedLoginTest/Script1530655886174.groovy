@@ -21,19 +21,19 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk', true)
 
-Mobile.tap(findTestObject('Application/android.widget.FrameLayout11 (1)'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/login'), 0)
 
-Mobile.tap(findTestObject('Application/android.widget.EditText0 (1)'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/emailLogin'), 0)
 
-Mobile.setText(findTestObject('Application/android.widget.EditText0 (2)'), 'john doe', 0)
+Mobile.setText(findTestObject('Application/Login Selectors/emailLoginInput'), 'john doe', 0)
 
-Mobile.tap(findTestObject('Application/android.widget.EditText1 (1)'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/password'), 0)
 
-Mobile.setText(findTestObject('Application/android.widget.EditText1 (2)'), 'meh', 0)
+Mobile.setText(findTestObject('Application/Login Selectors/passwordInput'), 'meh', 0)
 
-Mobile.tap(findTestObject('Application/android.widget.ImageButton0'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/loginError'), 0)
 
-Mobile.tap(findTestObject('Application/android.widget.TextView0 - Login (1)'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/loginButton'), 0)
 
-Mobile.closeApplication()
+not_run: Mobile.closeApplication()
 

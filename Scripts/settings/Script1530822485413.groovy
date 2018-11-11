@@ -21,101 +21,101 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk', true)
 
-Mobile.tap(findTestObject('Application/android.widget.FrameLayout11'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/login'), 0)
 
-Mobile.tap(findTestObject('Application/TextInputLayout0 - Email'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/emailLogin'), 0)
 
-Mobile.setText(findTestObject('Application/android.widget.EditText0'), 'connor.reese@payclip.com', 0)
+Mobile.setText(findTestObject('Application/Login Selectors/emailLoginInput'), 'connor.reese@payclip.com', 0)
 
-Mobile.tap(findTestObject('Application/TextInputLayout1 - Password'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/password'), 0)
 
-Mobile.setText(findTestObject('Application/android.widget.EditText1'), 'P@ssw0rd', 0)
+Mobile.setText(findTestObject('Application/Login Selectors/passwordInput'), 'P@ssw0rd', 0)
 
-Mobile.tap(findTestObject('Application/android.widget.TextView0 - Login'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/loginButton'), 0)
 
-Mobile.tap(findTestObject('Application/android.widget.ViewAnimator2'), 0)
+Mobile.tap(findTestObject('Application/Settings/settingsButton'), 0)
 
 Mobile.comment('Security Settings test')
 
-Mobile.tap(findTestObject('Settings/android.widget.TextView3 - Security'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/securityButton'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Switch0 - OFF'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Switch0 - OFF'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Button0 - 1'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Button0 - 1'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Button1 - 2'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Button1 - 2'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Button2 - 3'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Button2 - 3'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Button3 - 4'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Button3 - 4'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Button0 - 1'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Button0 - 1'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Button1 - 2'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Button1 - 2'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Button2 - 3'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Button2 - 3'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Button3 - 4'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Button3 - 4'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Switch0 - ON'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Switch0 - ON'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Button0 - 1'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Button0 - 1'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Button1 - 2'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Button1 - 2'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Button2 - 3'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Button2 - 3'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Button3 - 4'), 0)
+Mobile.tap(findTestObject('Application/Settings/Security/android.widget.Button3 - 4'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.ImageButton0'), 0)
+Mobile.tap(findTestObject('Application/Settings/settingsBackButton'), 0)
 
 Mobile.comment('Clip Reader Status test')
 
-Mobile.tap(findTestObject('Settings/android.widget.TextView4 - Clip Reader Status'), 0)
+Mobile.tap(findTestObject('Application/Settings/Clip Reader Status/clipReaderStatusButton'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Settings/android.widget.TextView0 - Setup reader'), 0)
+Mobile.waitForElementPresent(findTestObject('Application/Settings/Clip Reader Status/setUpReaderMessage'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.ImageButton0'), 0)
+Mobile.tap(findTestObject('Application/Settings/settingsBackButton'), 0)
 
 Mobile.comment('Preferences Settings test')
 
-Mobile.tap(findTestObject('Settings/android.widget.TextView2 - Preferences'), 0)
+Mobile.tap(findTestObject('Application/Settings/Preferences/preferencesButton'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Switch0 - OFF (1)'), 0)
+Mobile.tap(findTestObject('Application/Settings/Preferences/android.widget.Switch0 - OFF (1)'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Switch1 - OFF'), 0)
+Mobile.tap(findTestObject('Application/Settings/Preferences/android.widget.Switch1 - OFF'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.Switch2 - OFF'), 0)
+Mobile.tap(findTestObject('Application/Settings/Preferences/android.widget.Switch2 - OFF'), 0)
 
-Mobile.tap(findTestObject('Settings/Preferences/android.widget.FrameLayout9'), 0)
+Mobile.tap(findTestObject('Application/Settings/Preferences/tipsSwitch'), 0)
 
-Mobile.tap(findTestObject('Settings/Preferences/android.widget.TextView1 - Round up'), 0)
+Mobile.tap(findTestObject('Application/Settings/Preferences/android.widget.TextView1 - Round up'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Settings/Preferences/android.widget.TextView5 - Round up'), 0)
+Mobile.waitForElementPresent(findTestObject('Application/Settings/Preferences/android.widget.TextView5 - Round up'), 0)
 
-Mobile.tap(findTestObject('Settings/Preferences/android.widget.Switch2 - ON'), 0)
+Mobile.tap(findTestObject('Application/Settings/Preferences/android.widget.Switch2 - ON'), 0)
 
-Mobile.tap(findTestObject('Settings/Preferences/android.widget.Switch1 - ON'), 0)
+Mobile.tap(findTestObject('Application/Settings/Preferences/android.widget.Switch1 - ON'), 0)
 
-Mobile.tap(findTestObject('Settings/Preferences/android.widget.Switch0 - ON'), 0)
+Mobile.tap(findTestObject('Application/Settings/Preferences/android.widget.Switch0 - ON'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.ImageButton0'), 0)
+Mobile.tap(findTestObject('Application/Settings/settingsBackButton'), 0)
 
 Mobile.comment('Buy your reader test (currently broken) ')
 
-not_run: Mobile.tap(findTestObject('Settings/android.widget.TextView5 - Buy Your Reader'), 0)
+not_run: Mobile.tap(findTestObject('Application/Settings/Buy Reader/buyReaderButton'), 0)
 
-not_run: Mobile.tap(findTestObject('Settings/android.widget.ImageButton0'), 0)
+not_run: Mobile.tap(findTestObject('Application/Settings/settingsBackButton'), 0)
 
 Mobile.comment('About Screen test')
 
-Mobile.tap(findTestObject('Settings/android.widget.TextView6 - About'), 0)
+Mobile.tap(findTestObject('Application/Settings/About/aboutButton'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.ImageButton0'), 0)
+Mobile.checkElement(findTestObject('Application/Settings/About/Made with love by Clip'), 0)
 
-Mobile.checkElement(findTestObject('Settings/About/android.widget.TextView2 - Made with  by Clip'), 0)
+Mobile.checkElement(findTestObject('Application/Settings/About/android.widget.ImageView0'), 0)
 
-Mobile.checkElement(findTestObject('Settings/About/android.widget.ImageView0'), 0)
+Mobile.tap(findTestObject('Application/Settings/settingsBackButton'), 0)
 
 Mobile.closeApplication()
 

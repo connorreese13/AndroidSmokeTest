@@ -21,17 +21,17 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk', true)
 
-Mobile.tap(findTestObject('Application/android.widget.FrameLayout11'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/login'), 0)
 
-Mobile.tap(findTestObject('Application/TextInputLayout0 - Email'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Mobile.tap(findTestObject('Application/Login Selectors/emailLogin'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Mobile.setText(findTestObject('Application/android.widget.EditText0'), 'connor.reese@payclip.com', 0)
+Mobile.setText(findTestObject('Application/Login Selectors/emailLoginInput'), 'connor.reese@payclip.com', 0)
 
-Mobile.tap(findTestObject('Application/TextInputLayout1 - Password'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/password'), 0)
 
-Mobile.setText(findTestObject('Application/android.widget.EditText1'), 'P@ssw0rd', 0)
+Mobile.setText(findTestObject('Application/Login Selectors/passwordInput'), 'P@ssw0rd', 0)
 
-Mobile.tap(findTestObject('Application/android.widget.TextView0 - Login'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/loginButton'), 0)
 
-Mobile.closeApplication()
+not_run: Mobile.closeApplication()
 

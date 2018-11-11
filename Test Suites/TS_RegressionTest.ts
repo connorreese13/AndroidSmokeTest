@@ -4,7 +4,7 @@
    <name>TS_RegressionTest</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-07-25T09:28:08</lastRun>
+   <lastRun>2018-10-16T15:09:26</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

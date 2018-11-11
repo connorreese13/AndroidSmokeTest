@@ -21,47 +21,47 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication('/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk', true)
 
-Mobile.tap(findTestObject('Application/android.widget.FrameLayout11'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/login'), 0)
 
-Mobile.tap(findTestObject('Application/TextInputLayout0 - Email'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/emailLogin'), 0)
 
-Mobile.setText(findTestObject('Application/android.widget.EditText0'), 'connor.reese@payclip.com', 0)
+Mobile.setText(findTestObject('Application/Login Selectors/emailLoginInput'), 'connor.reese@payclip.com', 0)
 
-Mobile.tap(findTestObject('Application/TextInputLayout1 - Password'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/password'), 0)
 
-Mobile.setText(findTestObject('Application/android.widget.EditText1'), 'P@ssw0rd', 0)
+Mobile.setText(findTestObject('Application/Login Selectors/passwordInput'), 'P@ssw0rd', 0)
 
-Mobile.tap(findTestObject('Application/android.widget.TextView0 - Login'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/loginButton'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.Button3 - 4'), 0)
+Mobile.tap(findTestObject('Application/Terminal/android.widget.Button3 - 4'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.Button2 - 3'), 0)
+Mobile.tap(findTestObject('Application/Terminal/android.widget.Button2 - 3'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.Button5 - 6'), 0)
+Mobile.tap(findTestObject('Application/Terminal/android.widget.Button5 - 6'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.ImageButton0'), 0)
+Mobile.tap(findTestObject('Application/Terminal/terminalBackspace'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.ImageButton0'), 0)
+Mobile.tap(findTestObject('Application/Terminal/terminalBackspace'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.ImageButton0'), 0)
+Mobile.tap(findTestObject('Application/Terminal/terminalBackspace'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.Button5 - 6'), 0)
+Mobile.tap(findTestObject('Application/Terminal/android.widget.Button5 - 6'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.Button0 - 1'), 0)
+Mobile.tap(findTestObject('Application/Terminal/android.widget.Button0 - 1'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.Button2 - 3'), 0)
+Mobile.tap(findTestObject('Application/Terminal/android.widget.Button2 - 3'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.Button9 - Clear'), 0)
+Mobile.tap(findTestObject('Application/Terminal/terminalClearButton'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.TextView0 - Charge'), 0)
+Mobile.tap(findTestObject('Application/Terminal/terminalChargeButton'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.TextView2 - OK'), 0)
+Mobile.tap(findTestObject('Application/Terminal/terminalOkButton'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.Button2 - 3'), 0)
+Mobile.tap(findTestObject('Application/Terminal/android.widget.Button2 - 3'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.TextView0 - Charge'), 0)
+Mobile.tap(findTestObject('Application/Terminal/terminalChargeButton'), 0)
 
-Mobile.tap(findTestObject('Terminal/android.widget.ImageButton0 (1)'), 0)
+Mobile.tap(findTestObject('Application/Terminal/exitWaitScreen'), 0)
 
-Mobile.closeApplication()
+not_run: Mobile.closeApplication()
 

@@ -6,6 +6,7 @@
    <comment>Security Settings test
 Clip Reader Status test
 Preferences Settings test
-Buy your reader test (currently broken) </comment>
+Buy your reader test (currently broken) 
+About Screen test</comment>
    <testCaseGuid>55beadf3-0f8a-4d31-b889-f5eb34918533</testCaseGuid>
 </TestCaseEntity>

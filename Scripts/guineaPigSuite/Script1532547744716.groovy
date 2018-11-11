@@ -18,49 +18,68 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 Mobile.startApplication('/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk', true)
 
-Mobile.tap(findTestObject('Application/android.widget.FrameLayout11'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/login'), 0)
 
-Mobile.tap(findTestObject('Application/TextInputLayout0 - Email'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/emailLogin'), 0)
 
-Mobile.setText(findTestObject('Application/android.widget.EditText0'), 'connor.reese@payclip.com', 0)
+Mobile.setText(findTestObject('Application/Login Selectors/emailLoginInput'), 'connor.reese@payclip.com', 0)
 
-Mobile.tap(findTestObject('Application/TextInputLayout1 - Password'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/password'), 0)
 
-Mobile.setText(findTestObject('Application/android.widget.EditText1'), 'P@ssw0rd', 0)
-
-Mobile.tap(findTestObject('Application/android.widget.TextView0 - Login'), 0)
-
-Mobile.tap(findTestObject('Application/android.widget.ViewAnimator2'), 0)
-
-Mobile.tap(findTestObject('Settings/android.widget.TextView1 - My Account Settings'), 0)
-
-Mobile.tap(findTestObject('Settings/My Account Settings/android.widget.TextView1 - Personal Info'), 0)
-
-Mobile.tap(findTestObject('Settings/My Account Settings/Personal Info/TextInputLayout0 - First Name'), 0)
-
-Mobile.clearText(findTestObject('Settings/My Account Settings/Personal Info/android.widget.EditText0 - Connor'), 0)
-
-Mobile.setText(findTestObject('Settings/My Account Settings/Personal Info/android.widget.EditText0'), 'Connor', 0)
-
-Mobile.tap(findTestObject('Settings/My Account Settings/Personal Info/TextInputLayout1 - Paternal Name'), 0)
-
-Mobile.clearText(findTestObject('Settings/My Account Settings/Personal Info/android.widget.EditText1 - Ree'), 0)
-
-Mobile.setText(findTestObject('Settings/My Account Settings/Personal Info/android.widget.EditText1'), 'Ree', 0)
-
-Mobile.verifyElementExist(findTestObject('Settings/My Account Settings/Personal Info/TextInputLayout2 - Maternal Name'), 
-    0)
+Mobile.setText(findTestObject('Application/Login Selectors/passwordInput'), 'P@ssw0rd', 0)
 
 Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Settings/My Account Settings/Personal Info/android.widget.Button1 - SAVE CHANGES'), 0)
+Mobile.tap(findTestObject('Application/Login Selectors/loginButton'), 0)
 
-Mobile.tap(findTestObject('Settings/android.widget.ImageButton0'), 0)
+Mobile.tap(findTestObject('Application/Settings/settingsButton'), 0)
 
-Mobile.closeApplication()
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/myAccountSettingsButton'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/android.widget.TextView5 - Installments'), 
+    0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Number of Months dropdown'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/3 months'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Number of Months dropdown'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/3 6 months'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Number of Months dropdown'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/3 6 9 months'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Number of Months dropdown'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/3 6 9 12 months'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Minimum Amount of Pesos'), 0)
+
+Mobile.clearText(findTestObject('Application/Settings/My Account Settings/Installments/Minimum Amount of Pesos'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Minimum Amount of Pesos'), 0)
+
+Mobile.setText(findTestObject('Application/Settings/My Account Settings/Installments/Minimum Amount of Pesos'), '500', 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Information modal'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Iinstallments modal OK button'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Installments Toggle'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Save Installments button (active)'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Installments Toggle'), 0)
+
+Mobile.pressBack()
 
 Mobile.checkElement(findTestObject(null), 0)
 
