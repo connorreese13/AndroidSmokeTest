@@ -83,3 +83,5 @@ Mobile.pressBack()
 
 Mobile.checkElement(findTestObject(null), 0)
 
+WebUI.acceptAlert()
+

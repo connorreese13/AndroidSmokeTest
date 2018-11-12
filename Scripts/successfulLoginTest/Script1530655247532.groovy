@@ -33,5 +33,5 @@ Mobile.setText(findTestObject('Application/Login Selectors/passwordInput'), 'P@s
 
 Mobile.tap(findTestObject('Application/Login Selectors/loginButton'), 0)
 
-not_run: Mobile.closeApplication()
+Mobile.closeApplication()
 
