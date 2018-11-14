@@ -63,9 +63,10 @@ Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments
 
 Mobile.clearText(findTestObject('Application/Settings/My Account Settings/Installments/Minimum Amount of Pesos'), 0)
 
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Minimum Amount of Pesos'), 0)
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Amount cannot be less than 500'), 0)
 
-Mobile.setText(findTestObject('Application/Settings/My Account Settings/Installments/Minimum Amount of Pesos'), '500', 0)
+Mobile.sendKeys(findTestObject('Application/Settings/My Account Settings/Installments/Amount cannot be less than 500'), 
+    '500', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.hideKeyboard()
 
@@ -77,11 +78,7 @@ Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments
 
 Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Save Installments button (active)'), 0)
 
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Installments Toggle'), 0)
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Toggle (In OFF position)'), 0)
 
 Mobile.pressBack()
-
-Mobile.checkElement(findTestObject(null), 0)
-
-WebUI.acceptAlert()
 

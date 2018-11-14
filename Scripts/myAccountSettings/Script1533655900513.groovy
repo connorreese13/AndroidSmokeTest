@@ -132,3 +132,47 @@ Mobile.tap(findTestObject('Application/Settings/My Account Settings/Business Add
 
 Mobile.pressBack()
 
+WebUI.comment('Installments')
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/android.widget.TextView5 - Installments'), 
+    0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Number of Months dropdown'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/3 months'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Number of Months dropdown'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/3 6 months'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Number of Months dropdown'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/3 6 9 months'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Number of Months dropdown'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/3 6 9 12 months'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Minimum Amount of Pesos'), 0)
+
+Mobile.clearText(findTestObject('Application/Settings/My Account Settings/Installments/Minimum Amount of Pesos'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Amount cannot be less than 500'), 0)
+
+Mobile.sendKeys(findTestObject('Application/Settings/My Account Settings/Installments/Amount cannot be less than 500'), 
+    '500', FailureHandling.STOP_ON_FAILURE)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Information modal'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Iinstallments modal OK button'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Installments Toggle'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Save Installments button (active)'), 0)
+
+Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Toggle (In OFF position)'), 0)
+
+Mobile.pressBack()
+

@@ -1,17 +1,17 @@
 [Appium] Welcome to Appium v1.8.1
 [Appium] Non-default server args:
-[Appium]   port: 50495
+[Appium]   port: 52022
 [Appium]   loglevel: info
-[Appium]   chromeDriverPort: 50496
-[Appium]   tmpDir: /var/folders/7z/_z75dzjx0mv_t156hv61y6m40000gn/T//Katalon/Appium/Temp1541701205656
-[Appium] Appium REST http interface listener started on 0.0.0.0:50495
+[Appium]   chromeDriverPort: 52023
+[Appium]   tmpDir: /var/folders/7z/_z75dzjx0mv_t156hv61y6m40000gn/T//Katalon/Appium/Temp1542140683122
+[Appium] Appium REST http interface listener started on 0.0.0.0:52022
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 17 ms - 83
+[HTTP] <-- GET /wd/hub/status 200 20 ms - 83
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 12 ms - 83
+[HTTP] <-- GET /wd/hub/status 200 14 ms - 83
 [HTTP] 
 [HTTP] --> POST /wd/hub/session
 [HTTP] {"desiredCapabilities":{"app":"/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-J727U (Android 7.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"330097d69bf6a3e7"},"capabilities":{"desiredCapabilities":{"app":"/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-J727U (Android 7.0)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"330097d69bf6a3e7"},"firstMatch":[{"platformName":"android"}]}}
@@ -30,9 +30,9 @@
 [Appium]   platformName: Android
 [Appium]   udid: 330097d69bf6a3e7
 [BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
-[BaseDriver] Session created with session id: 643c6ea5-c093-41f1-bb92-d025069388ba
+[BaseDriver] Session created with session id: 49ac7310-6437-43e4-a834-81951785d6a4
 [BaseDriver] Using local app '/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk'
-[AndroidDriver] Java version is: 1.8.0_102
+[AndroidDriver] Java version is: 1.8.0_181
 [ADB] Checking whether adb is present
 [ADB] Found 1 'build-tools' folders under '/Users/connorreese/.katalon/tools/android_sdk' (newest first):
 [ADB]     /Users/connorreese/.katalon/tools/android_sdk/build-tools/28.0.0
@@ -58,41 +58,60 @@
 [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
 [AndroidDriver] Screen already unlocked, doing nothing
 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.payclip.clip/com.payclip.clip.MainActivity'. Starting it ourselves
-[Appium] New AndroidUiautomator2Driver session created successfully, session 643c6ea5-c093-41f1-bb92-d025069388ba added to master session list
-[HTTP] <-- POST /wd/hub/session 200 24451 ms - 1171
+[Appium] New AndroidUiautomator2Driver session created successfully, session 49ac7310-6437-43e4-a834-81951785d6a4 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 44307 ms - 1171
 [HTTP] 
 [HTTP] --> GET /wd/hub/status
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/status 200 15 ms - 55
+[HTTP] <-- GET /wd/hub/status 200 16 ms - 55
 [HTTP] 
-[HTTP] --> POST /wd/hub/session/643c6ea5-c093-41f1-bb92-d025069388ba/timeouts
+[HTTP] --> POST /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/timeouts
 [HTTP] {"type":"implicit","ms":60000}
-[HTTP] <-- POST /wd/hub/session/643c6ea5-c093-41f1-bb92-d025069388ba/timeouts 400 15 ms - 4300
+[HTTP] <-- POST /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/timeouts 400 27 ms - 4300
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/643c6ea5-c093-41f1-bb92-d025069388ba/source
+[HTTP] --> GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/source
 [HTTP] {}
 [W3C] Driver proxy active, passing request on via HTTP proxy
-[JSONWP Proxy] Replacing sessionId b26f68bb-6d99-4909-a84c-e4dc838a926b with 643c6ea5-c093-41f1-bb92-d025069388ba
-[HTTP] <-- GET /wd/hub/session/643c6ea5-c093-41f1-bb92-d025069388ba/source 200 274 ms - 12933
+[JSONWP Proxy] Replacing sessionId 1cc31d39-a7c3-4744-b49f-b4f323c07bf7 with 49ac7310-6437-43e4-a834-81951785d6a4
+[HTTP] <-- GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/source 200 652 ms - 12933
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/643c6ea5-c093-41f1-bb92-d025069388ba/screenshot
+[HTTP] --> GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/screenshot
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/643c6ea5-c093-41f1-bb92-d025069388ba/screenshot 200 255 ms - 73226
+[HTTP] <-- GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/screenshot 200 264 ms - 73178
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/643c6ea5-c093-41f1-bb92-d025069388ba/source
+[HTTP] --> GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/source
 [HTTP] {}
 [W3C] Driver proxy active, passing request on via HTTP proxy
-[JSONWP Proxy] Replacing sessionId b26f68bb-6d99-4909-a84c-e4dc838a926b with 643c6ea5-c093-41f1-bb92-d025069388ba
-[HTTP] <-- GET /wd/hub/session/643c6ea5-c093-41f1-bb92-d025069388ba/source 200 165 ms - 16655
+[JSONWP Proxy] Replacing sessionId 1cc31d39-a7c3-4744-b49f-b4f323c07bf7 with 49ac7310-6437-43e4-a834-81951785d6a4
+[HTTP] <-- GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/source 200 200 ms - 16648
 [HTTP] 
-[HTTP] --> GET /wd/hub/session/643c6ea5-c093-41f1-bb92-d025069388ba/screenshot
+[HTTP] --> GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/screenshot
 [HTTP] {}
-[HTTP] <-- GET /wd/hub/session/643c6ea5-c093-41f1-bb92-d025069388ba/screenshot 200 217 ms - 58440
+[HTTP] <-- GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/screenshot 200 214 ms - 57212
 [HTTP] 
-[HTTP] --> DELETE /wd/hub/session/643c6ea5-c093-41f1-bb92-d025069388ba
+[HTTP] --> GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/source
 [HTTP] {}
-[Appium] Removing session 643c6ea5-c093-41f1-bb92-d025069388ba from our master session list
-[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: ProxyRequestError: Could not proxy command to remote server. Original error: Error: connect ECONNREFUSED 127.0.0.1:8202
-[UiAutomator2] Unable to remove port forward 'Error executing adbExec. Original error: 'Command '/Users/connorreese/.katalon/tools/android_sdk/platform-tools/adb -P 5037 -s 330097d69bf6a3e7 forward --remove tcp\:8202' exited with code 1'; Stderr: 'error: unknown host service'; Code: '1''
-[HTTP] <-- DELETE /wd/hub/session/643c6ea5-c093-41f1-bb92-d025069388ba 200 2102 ms - 76
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 1cc31d39-a7c3-4744-b49f-b4f323c07bf7 with 49ac7310-6437-43e4-a834-81951785d6a4
+[HTTP] <-- GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/source 200 117 ms - 14836
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/screenshot 200 299 ms - 93450
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/source
+[HTTP] {}
+[W3C] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 1cc31d39-a7c3-4744-b49f-b4f323c07bf7 with 49ac7310-6437-43e4-a834-81951785d6a4
+[HTTP] <-- GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/source 200 282 ms - 11891
+[HTTP] 
+[HTTP] --> GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/screenshot
+[HTTP] {}
+[HTTP] <-- GET /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4/screenshot 200 211 ms - 45730
+[HTTP] 
+[HTTP] --> DELETE /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4
+[HTTP] {}
+[Appium] Removing session 49ac7310-6437-43e4-a834-81951785d6a4 from our master session list
+[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: ProxyRequestError: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+[HTTP] <-- DELETE /wd/hub/session/49ac7310-6437-43e4-a834-81951785d6a4 200 1280 ms - 76
 [HTTP] 
