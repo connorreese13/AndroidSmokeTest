@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 Mobile.startApplication('/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk', true)
 
@@ -30,6 +31,8 @@ Mobile.setText(findTestObject('Application/Login Selectors/emailLoginInput'), 'c
 Mobile.tap(findTestObject('Application/Login Selectors/password'), 0)
 
 Mobile.setText(findTestObject('Application/Login Selectors/passwordInput'), 'P@ssw0rd', 0)
+
+Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Application/Login Selectors/loginButton'), 0)
 

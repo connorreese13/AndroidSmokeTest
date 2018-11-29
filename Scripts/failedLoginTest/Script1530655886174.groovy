@@ -31,9 +31,11 @@ Mobile.tap(findTestObject('Application/Login Selectors/password'), 0)
 
 Mobile.setText(findTestObject('Application/Login Selectors/passwordInput'), 'meh', 0)
 
+Mobile.hideKeyboard()
+
 Mobile.tap(findTestObject('Application/Login Selectors/loginError'), 0)
 
 Mobile.tap(findTestObject('Application/Login Selectors/loginButton'), 0)
 
-not_run: Mobile.closeApplication()
+Mobile.closeApplication()
 

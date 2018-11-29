@@ -31,6 +31,8 @@ Mobile.tap(findTestObject('Application/Login Selectors/password'), 0)
 
 Mobile.setText(findTestObject('Application/Login Selectors/passwordInput'), 'P@ssw0rd', 0)
 
+Mobile.hideKeyboard()
+
 Mobile.tap(findTestObject('Application/Login Selectors/loginButton'), 0)
 
 Mobile.tap(findTestObject('Application/Terminal/android.widget.Button3 - 4'), 0)
@@ -63,5 +65,5 @@ Mobile.tap(findTestObject('Application/Terminal/terminalChargeButton'), 0)
 
 Mobile.tap(findTestObject('Application/Terminal/exitWaitScreen'), 0)
 
-not_run: Mobile.closeApplication()
+Mobile.closeApplication()
 

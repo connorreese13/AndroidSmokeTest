@@ -19,6 +19,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import io.appium.java_client.android.AndroidKeyCode as AndroidKeyCode
 
 Mobile.startApplication('/Users/connorreese/Downloads/Clip-3.4.0-208-prod-release.apk', true)
 
@@ -32,53 +33,19 @@ Mobile.tap(findTestObject('Application/Login Selectors/password'), 0)
 
 Mobile.setText(findTestObject('Application/Login Selectors/passwordInput'), 'P@ssw0rd', 0)
 
-Mobile.hideKeyboard()
+Mobile.hideKeyboard(FailureHandling.CONTINUE_ON_FAILURE)
 
 Mobile.tap(findTestObject('Application/Login Selectors/loginButton'), 0)
 
-Mobile.tap(findTestObject('Application/Settings/settingsButton'), 0)
+Mobile.tap(findTestObject('Application/Transaction History/Transaction History Tab'), 0)
 
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/myAccountSettingsButton'), 0)
+Mobile.tap(findTestObject('Application/Transaction History/Transaction History Search button'), 0)
 
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/android.widget.TextView5 - Installments'), 
-    0)
+Mobile.setText(findTestObject('Application/Transaction History/Transaction Search'), '2729', 0)
 
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Number of Months dropdown'), 0)
+not_run: Mobile.sendKeys(findTestObject('Application/Transaction History/Transaction Search'), '2729')
 
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/3 months'), 0)
+not_run: Mobile.tapAtPosition(1075, 1900, FailureHandling.OPTIONAL)
 
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Number of Months dropdown'), 0)
-
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/3 6 months'), 0)
-
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Number of Months dropdown'), 0)
-
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/3 6 9 months'), 0)
-
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Number of Months dropdown'), 0)
-
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/3 6 9 12 months'), 0)
-
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Minimum Amount of Pesos'), 0)
-
-Mobile.clearText(findTestObject('Application/Settings/My Account Settings/Installments/Minimum Amount of Pesos'), 0)
-
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Amount cannot be less than 500'), 0)
-
-Mobile.sendKeys(findTestObject('Application/Settings/My Account Settings/Installments/Amount cannot be less than 500'), 
-    '500', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.hideKeyboard()
-
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Information modal'), 0)
-
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Iinstallments modal OK button'), 0)
-
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Installments Toggle'), 0)
-
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Save Installments button (active)'), 0)
-
-Mobile.tap(findTestObject('Application/Settings/My Account Settings/Installments/Toggle (In OFF position)'), 0)
-
-Mobile.pressBack()
+CustomKeywords.'com.ea.utilities.CommonUtilities.pressKey'(AndroidKeyCode.ENTER)
 
